@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing:border-box ;
+            }
+            header{
+                text-align: center;
+            }
+            .logo{
+                text-align: center;
+                margin: 14px 0;
+            }
+            .logo img{
+                height: 180px;
+                width: 400px;
+            }
+            nav ul{
+                list-style: none;       
+                display: block;
+                justify-content: center;
+            }
+            nav ul li a{
+                text-decoration: none;
+                font-weight: 500px;
+                color:black ;
+                font-size: 15px;
+            }
+            nav ul li a:hover{
+                text-decoration: none;
+                color: red;
+            }
+            .active{
+                text-decoration: underline;
+            }
+            .content{
+                margin-top:26px ;
+            }
+            .post{
+                display: flex;
+            }
+            .post-content{
+                align-items: center;
+            }
+            .description{
+                font-size: 14px;
+                margin: 16px 0;
+            }
+            .btn-post{
+                background-color: rgb(174, 174, 8);
+            }
+            .btn{
+                padding: 8px 12px;
+                color: white;
+                border: none;    
+            }
+            .product h2{
+                text-align: center;
+                padding: 22px 0px;
+            }
+            .product-list{
+                display: flex; 
+            }
+            .product-item{
+                width: 32%;
+                position: absolute;
+                overflow: hidden;
+                margin-left: 200px;
+            }
+            .product-item img{
+                cursor: pointer; 
+            }
+            .product-detail{
+                text-align: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: white;
+                transform: translate(100%); 
+            }
+            .product-detail h3{
+                margin: 16px;
+                font-size: 16px;
+            }
+            .product-price{
+                display: block;
+                margin: 12px 0;
+            }
+            .btn-product{
+                background-color: #444;
+                width: 300px;
+            }
+            article img:hover{
+                opacity: 70%;
+            }
+            .footer{
+            height: 60px;
+            background-color:black ;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;                      /* căn chỉnh các item bên trong*/
+            padding: 0 12px;
+            }
+            .footer p{
+                color: white;
+                font-size: 15px;
+            }
+            .bth-ft{
+                background-color: gold;
+                border-radius: 3px;
+                border: 2px solid orange;
+            }
+            footer input{
+                padding: 8px 12px;
+                border: 2px solid orange;
+                border-radius: 3px;
+            }
+            .menu li{
+                display: inline-block;
+                margin: 20px 30px;
+            }
+            .menu {
+                text-align: center;/*caw3n giữa*/
+                background-color: rgb(48, 48, 153);
+            }
+            .menu li a{
+                color: white;
+                text-decoration: none;
+            }
+            .post-detail{
+                margin-left: 350px;
+            }
+            .post-img{
+                margin-right: 250px;
+            }
+            .img_2{
+                margin-left:550px ;
+            }
+            .img_3{
+                margin-left: 345px;
+                margin-top: -485px;
+            }
+            form{
+                text-align: right;
+            }
+            footer{
+                background-color: rgb(48, 48, 153);;
+                height: 80px;
+                margin-top: 20px;
+            }
+            button{
+                content: "";
+           
+           z-index: -1;
+           background-color:green;
+           transition: 0.4s;
+            }
+            .end button{
+                background-color: rgb(197, 197, 32);
+                margin-bottom: 15px;
+                margin-right: 15px;
+            } 
+            .btn-product{
+                content: "";
+           
+            /* z-index: -1; */
+            background-color:green;
+            transition: 0.4s;
+            }
+            .btn-product:hover{
+                color: red;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="img/background.jpeg" alt="" width="1345px" height="500px" >
+    </header>
+    </div>
+    <section class="logo">
+        <img src="img/logooooooo.jpg" alt="">
+    </section>
+    <nav>
+        <ul class="menu">
+            <li class="active"><a href="menu.html">Home</a></li>
+            <li><a href="">Pages</a></li>
+            <li><a href="">Destinations</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Larding</a></li>
+            <li><a href="">Shop</a></li>
+        </ul>
+    </nav>
+    <article>
+    <section class="content">
+        <div class="post">
+            <div class="post-content">
+                <div class="post-detail">
+                    <h2>EXPLORING</h2>
+                    <p class="description">Loren ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididu nt ut labore et dolore. 
+                     </p>
+                     <button class="btn-post">Read more</button>
+                </div>
+            </div>
+            <div class="post-img">
+            <img src="img/phú quốc.jfif" width="400" height="300px">
+            </div>
+        </div>
+        <div class="product">
+            <h2>FEATURED BLOG POSTS</h2>
+
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="img/ảnh.jfif" width="300" height="400">
+                    <div class="product-detali">
+                        <h3>highlight scene</h3>
+                        <span class="product-price">
+                            $546.00
+                        </span>
+                        <button class="btn-product">Book this tour</button>
+                    </div>
+                </div>
+                    <div class="img_2">
+                        <img src="img/img2.jpg" width="300" height="400">
+                        <div class="product-detali">
+                            <h3>highlight scene</h3>
+                            <span class="product-price">
+                                $520.00
+                            </span>
+                            <button class="btn-product">Book this tour</button>
+                        </div>
+                        <div class="img_3">
+                            <img src="img/ảnhhhhhh.jfif" width="300" height="400">
+                            <div class="product-detali">
+                                <h3>highlight scene</h3>
+                                <span class="product-price">
+                                    $530.00
+                                </span>
+                                <button class="btn-product">Book this tour</button>
+                            </div>
+                        </div>              
+        </div>
+    </section>
+</article>
+    <footer>
+        <div class="text">
+        <p>@ 2021 Qode Interactive,All Right Reserved</p>
+        </div>
+        <form class="end">
+            <input type="text" placeholder="Email Address">
+            <button class="btn btn-ft">Send</button >
+        </form>
+    </footer>
+</body>
+</html>
