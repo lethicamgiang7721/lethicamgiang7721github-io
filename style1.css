@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    width: 2048px;
+    margin: auto;
+}
+.bill{
+    height: 80px;
+    border: 1px solid;
+    position: relative;
+    background-color: blue;
+}
+.bill img{
+    position: absolute;
+    width: 130px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.box1{
+    width: 100px;
+    position: absolute;
+    right: 350px;
+    margin-left: -100px;
+}
+.box1 img{
+    width: 80px;
+
+}
+.box2{
+    width: 100px;
+    position: absolute;
+    right: 200px; 
+}
+.menu{
+    height: 60px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    line-height: 60px;
+    margin-left: 120px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(4, 4, 12);
+}
+.menu ul li a:hover{
+    color:blue;
+}
+.menu1{
+    height: 1000px;
+    margin-top: 10px;
+}
+.box3{
+    margin-top: 10px;
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid blue;
+    position: relative;
+}
+.box3:hover{
+    opacity: 0.6;
+}
+.box3 img{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+.box3 .text1{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 180px;
+}
+.box3 p{
+    font-size: 25px;
+}.box3 button{
+    margin-top: 450px;
+    width: 250px;
+    height: 30px;
+    margin-left: 110px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+.box4{
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid blue;
+    position: relative;
+}
+.box4:hover{
+    opacity: 0.6;
+}
+.box4 img{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+.box4 .text1{
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 190px;
+}
+.box4 span{
+    font-size: 25px;
+}.box4 button{
+    margin-top: 450px;
+    width: 250px;
+    height: 30px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+.box4{
+    margin-top: 10px;
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid blue;
+    position: relative;
+}
+.box4 img{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.box4 .text1{
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 160px;
+}
+.box4 span{
+    font-size: 25px;
+}.box4 button{
+    margin-top: 450px;
+    width: 250px;
+    height: 30px;
+    margin-left: 85px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+.box5{
+    margin-top: 10px;
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid blue;
+    position: relative;
+}
+.box5:hover{
+    opacity: 0.6;
+}
+.box5 img{
+position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.box5 .text1{
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 160px;
+}
+.box5 span{
+    font-size: 25px;
+}.box5 button{
+    margin-top: 450px;
+    width: 250px;
+    height: 30px;
+    margin-left: 85px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+.box5{
+    margin-top: 10px;
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid blue;
+    position: relative;
+}
+.box5 img{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.box5 .text1{
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 160px;
+}
+.box5 span{
+    font-size: 25px;
+}
+.box5 button{
+    margin-top: 450px;
+    width: 250px;
+    height: 30px;
+    margin-left: 85px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+.box6{
+    margin-top: 10px;
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid blue;
+    position: relative;
+}
+.box6:hover{
+    opacity: 0.6;
+}
+.box6 img{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.box6 .text1{
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 160px;
+}
+.box6 span{
+    font-size: 25px;
+}.box6 button{
+    margin-top: 450px;
+    width: 250px;
+    height: 30px;
+    margin-left: 85px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
